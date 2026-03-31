@@ -1,9 +1,12 @@
 title: "Learning Pathways"
 description: "Get started learning about decentralized trust"
 theme: just-the-docs
-#remote_theme: just-the-docs/just-the-docs
 
-https://trustoverip.github.io +baseurl: /egwg-learning-pathways 
+url: "https://trustoverip.github.io"
+baseurl: "/egwg-learning-pathways"
 
 aux_links:
   Repository: https://github.com/trustoverip/egwg-learning-pathways
+
+search_enabled: true
+color_scheme: light

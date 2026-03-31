@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 # Bite-Sized Trust — Learning Pathways
 {: .no_toc }

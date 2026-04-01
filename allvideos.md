@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Starting concepts
+title: All videos
 nav_order: 2
 ---
 

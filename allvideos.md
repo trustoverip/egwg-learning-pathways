@@ -6,6 +6,8 @@ nav_order: 2
 
 # Full Video Index
 
+[YouTube playlist](https://www.youtube.com/watch?v=lkqZ34poQZw&list=PL0MZ85B_96CEoV-jvUbTovUAOA531bce_)
+
 | Video | Why this matters | Tags | Watch next | Go deeper |
 |---|---|---|---|---|
 | [Identifiers](https://youtube.com/shorts/lRxNaz50XLA) | Every trust system starts by deciding how things are named and referenced. | Beginner | Private and Public Keys | [ToIP Overview](https://trustoverip.org/why-toip/overview/) |

@@ -3,6 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 ---
+![Trust Over IP](Trust_over_IP_color.png)
 # Bite-Sized Trust — Learning Pathways
 {: .no_toc }
 

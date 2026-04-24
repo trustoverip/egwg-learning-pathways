@@ -24,8 +24,9 @@ nav_order: 1
 | 3 | Digests | [Watch](https://www.youtube.com/shorts/lkqZ34poQZw) |
 | 4 | Digital Signatures | [Watch](https://www.youtube.com/shorts/AM4dp5sA1z4) |
 | 5 | Verifiable Credentials | [Watch](https://www.youtube.com/shorts/TT3JskGgv0Q) |
+| 6 | Zero Knowledge Proofs | [Watch](https://youtube.com/shorts/DfKS-Pe8sHE) |
 
-**What you will gain:** a working vocabulary and a basic mental model of how identity, integrity, and authenticity are established in digital systems — the essential foundation for everything else in this series.
+**What you will gain:** a working vocabulary and a basic mental model of how identity, integrity, and authenticity are established in digital systems — including how claims can be verified while minimizing the amount of data that must be disclosed.
 
 ---
 
@@ -33,16 +34,20 @@ nav_order: 1
 
 **Goal:** Understand what DIDs are, how they are structured, stored, and resolved, and what distinguishes one DID method from another.
 
+### Integrity, History, and Trust in DIDs
+
 | # | Video | Link |
 |---|---|---|
 | 1 | Self-certifying Identifiers | [Watch](https://youtube.com/shorts/eKWD_GgRKMM) |
 | 2 | DIDs and Key Rotation | [Watch](https://www.youtube.com/shorts/gcAgdD2Myyc) |
-| 3 | Where DID Documents Live | [Watch](https://youtube.com/shorts/-ZnTCzh79Bw) |
-| 4 | Resolving a DID | [Watch](https://youtube.com/shorts/G3LHn6hSvRY) |
-| 5 | Detecting DID Document Duplicity | [Watch](https://youtube.com/shorts/qaViw7WoKHY) |
-| 6 | Control of DID Document Data | [Watch](https://youtube.com/shorts/jk0_zaieK-c) |
+| 3 | Cryptographic Binding for Trust | [Watch](https://youtube.com/shorts/yGtwqcB1B9k) |
+| 4 | Anchored Commitments | [Watch](https://youtube.com/shorts/ABxu2zMcfEs) |
+| 5 | Where DID Documents Live | [Watch](https://youtube.com/shorts/-ZnTCzh79Bw) |
+| 6 | Resolving a DID | [Watch](https://youtube.com/shorts/G3LHn6hSvRY) |
+| 7 | Detecting DID Document Duplicity | [Watch](https://youtube.com/shorts/qaViw7WoKHY) |
+| 8 | Control of DID Document Data | [Watch](https://youtube.com/shorts/jk0_zaieK-c) |
 
-**What you will gain:** a complete picture of how DIDs are created, resolved, and updated, and how to evaluate the trust assumptions of different DID methods — including which ones offer cryptographic proof of legitimate changes and which do not.
+**What you will gain:** a complete picture of how DIDs are created, resolved, and updated, how cryptographic binding ensures that changes remain tamper-evident, and how anchored commitments extend this by providing verifiable historical records that protect against forgery and key compromise. You will also understand how systems detect conflicting histories (duplicity) and what trust assumptions different DID methods make.
 
 ---
 
@@ -72,7 +77,7 @@ nav_order: 1
 | 1 | Key Pre-rotation | [Watch](https://youtube.com/shorts/NRkWZaZAtLU) |
 | 2 | Multiple Keys | [Watch](https://youtube.com/shorts/d-7DkkcPfUo) |
 
-**What you will gain:** an understanding of how pre-rotation protects against identity hijacking by committing to the next key before the current one is compromised, and how multisignature and threshold schemes eliminate single points of failure through shared key control.
+**What you will gain:** an understanding of how pre-rotation protects against identity hijacking by committing to the next key before the current one is compromised, how multisignature and threshold schemes eliminate single points of failure through shared key control, and why additional mechanisms—like verifiable history—are needed to maintain trust over time.
 
 ---
 
@@ -116,18 +121,6 @@ nav_order: 1
 | 3 | What Trust Registries Do | [Watch](https://youtube.com/shorts/FdFZ3plDZfA) |
 
 **What you will gain:** a concrete understanding of how conformance schemes turn rules into verifiable accountability, and how trust registries serve as the authoritative, queryable backbone that makes digital governance actionable for both humans and software systems.
-
----
-
-## Privacy-Preserving Verification
-
-**Goal:** Understand how decentralized identity systems can verify claims and authenticate users while minimizing the personal data that needs to be shared.
-
-| # | Video | Link |
-|---|---|---|
-| 1 | Zero Knowledge Proofs | [Watch](https://youtube.com/shorts/DfKS-Pe8sHE) |
-
-**What you will gain:** an understanding of how zero-knowledge proofs allow a person to prove a specific claim — such as being over a legal age — without revealing any underlying personal data, and why this is becoming a key tool for privacy-preserving identity in decentralized systems.
 
 ---
 
